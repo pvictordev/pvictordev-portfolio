@@ -12,3 +12,6 @@
     font-family: 'Inconsolata', monospace;
     color: rgb(2, 212, 2);
 }
+.app p:hover {
+  text-decoration: underline;
+}
