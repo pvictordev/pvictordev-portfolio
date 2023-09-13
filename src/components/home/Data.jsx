@@ -62,7 +62,7 @@ const Data = () => {
         I'm a tech-savvy Front-End Developer who specializes in coding and maintaining websites and web applications.
        </p>
        <a href="#contact" className="button button--flex">
-        Contact me
+        Contact Me
         <svg
             className="button__icon"
             xmlns="http://www.w3.org/2000/svg"
