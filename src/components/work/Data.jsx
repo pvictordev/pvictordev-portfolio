@@ -5,6 +5,7 @@ import Work4 from "../../assets/work4.jpg"
 import Work5 from "../../assets/work5.jpg"
 
 export const projectsData = [
+    
     {
         id:1,
         image: Work1,
