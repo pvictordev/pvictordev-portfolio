@@ -22,6 +22,7 @@ function App() {
         <Qualification/>
         <Testimonials/>
         <Contact/>
+        
       </main>
     </div>
   )
