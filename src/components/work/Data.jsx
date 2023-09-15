@@ -9,33 +9,33 @@ export const projectsData = [
     {
         id:1,
         image: Work1,
-        title: 'Project-1',
+        title: 'Altcoinz',
         category: 'web'
     },
     {
         id:2,
         image: Work2,
-        title: 'Project-2',
-        category: 'app'
+        title: 'Ondrive',
+        category: 'web'
     },
     {
         id:3,
         image: Work3,
-        title: 'Project-3',
-        category: 'design'
+        title: 'Webseler',
+        category: 'web'
     },
     {
         id:4,
         image: Work4,
-        title: 'Project-4',
+        title: 'Socialhub',
         category: 'web'
     },
-    {
-        id:5,
-        image: Work5,
-        title: 'Project-5',
-        category: 'app'
-    },
+    // {
+    //     id:5,
+    //     image: Work5,
+    //     title: 'Project-5',
+    //     category: 'app'
+    // },
     
 ];
 
@@ -49,7 +49,7 @@ export const projectsNav = [
     {
         name: 'app',
     },
-    {
-        name: 'design',
-    },
+    // {
+    //     name: 'design',
+    // },
 ]

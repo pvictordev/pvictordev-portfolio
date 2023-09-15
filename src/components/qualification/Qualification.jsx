@@ -45,10 +45,10 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title"> EXP-1 </h3>
-                            <span className="qualification__subtitle">ULBS</span>
+                            <h3 className="qualification__title"> Front End Development Libraries </h3>
+                            <span className="qualification__subtitle">freeCodeCamp</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2022 - 2023
                             </div>
                         </div>
 
@@ -66,20 +66,20 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">EXP-2</h3>
-                            <span className="qualification__subtitle">ULBS</span>
+                            <h3 className="qualification__title">JavaScript Algorithms and Data Structures</h3>
+                            <span className="qualification__subtitle">freeCodeCamp</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2022 - 2022
                             </div>
                         </div>
                     </div>
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">EXP-3 </h3>
-                            <span className="qualification__subtitle">ULBS</span>
+                            <h3 className="qualification__title">Responsive Web Design</h3>
+                            <span className="qualification__subtitle">freeCodeCamp</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2022 - 2022
                             </div>
                         </div>
 
@@ -97,8 +97,8 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">EXP-4</h3>
-                            <span className="qualification__subtitle">ULBS</span>
+                            <h3 className="qualification__title">Computer Science</h3>
+                            <span className="qualification__subtitle">Lucian Blaga University</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present
                             </div>
@@ -114,10 +114,10 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">exp-1</h3>
-                            <span className="qualification__subtitle">France</span>
+                            <h3 className="qualification__title">Web Developer</h3>
+                            <span className="qualification__subtitle">Freelance</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2023 - Present
                             </div>
                         </div>
 
@@ -135,18 +135,18 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">exp-2</h3>
-                            <span className="qualification__subtitle"> Montreal</span>
+                            <h3 className="qualification__title">Back-End Developer</h3>
+                            <span className="qualification__subtitle"> Freelance</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - Present
+                                <i className="uil uil-calendar-alt"></i> 2023 - Present
                             </div>
                         </div>
                     </div>
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">exp-3</h3>
-                            <span className="qualification__subtitle">Italy</span>
+                            <h3 className="qualification__title">Front-End Developer</h3>
+                            <span className="qualification__subtitle">Freelance</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2022 - Present
                             </div>

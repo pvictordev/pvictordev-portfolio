@@ -25,9 +25,9 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-         <h2 className="section__title">Get in touch</h2>
+         <h2 className="section__title">Contact</h2>
         <span className="section__subtitle">
-            Contact Me
+            Get in touch
         </span>
 
         <div className="contact__container container grid">
@@ -39,14 +39,14 @@ const Contact = () => {
                         <i className="bx bx-mail-send contact__card-icon"></i>
                         <h3 className='contact__card-title'>Email</h3>
                         <span className="contact__card-data">pvictor0110@gmail.com</span>
-                        <a href="#contact" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <a href="mailto:pvictor0110@gmail.com" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
                     <i className="bx bxl-whatsapp contact__card-icon"></i>
                         <h3 className='contact__card-title'>Whatsapp</h3>
-                        <span className="contact__card-data">0749-510-629</span>
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <span className="contact__card-data">+40749510629</span>
+                        <a href="https://wa.link/0ct3j9" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
