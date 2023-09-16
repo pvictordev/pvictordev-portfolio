@@ -9,7 +9,7 @@ export const projectsData = [
     {
         id:1,
         image: Work1,
-        title: 'Altcoinz',
+        title: 'Altcoinx',
         category: 'web'
     },
     {
