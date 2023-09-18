@@ -1,4 +1,4 @@
 # pvictordev portfolio
-### Code of My Career: Here, I share not only my projects but also my professional growth. This repository houses my portfolio website, reflecting my journey in the world of development and technology.
-#### Here i implemented Back-End using EmailJS service, also i used Swiper React Components
+## Code of My Career: Here, I share not only my projects but also my professional growth. This repository houses my portfolio website, reflecting my journey in the world of development and technology.
+### Here i implemented Back-End using EmailJS service, also i used Swiper React Components
 Deploy: https://pvictordev.netlify.app/
