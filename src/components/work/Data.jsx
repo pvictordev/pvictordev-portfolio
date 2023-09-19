@@ -21,7 +21,7 @@ export const projectsData = [
     {
         id:3,
         image: Work3,
-        title: 'Webseler',
+        title: 'Webshop',
         category: 'web'
     },
     {
