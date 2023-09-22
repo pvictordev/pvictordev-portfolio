@@ -10,25 +10,33 @@ export const projectsData = [
         id:1,
         image: Work1,
         title: 'Altcoinx',
-        category: 'web'
+        category: 'web',
+        demo:'',
+        code : 'https://github.com/pvictordev/altcoinx',
     },
     {
         id:2,
         image: Work2,
         title: 'Ondrive',
-        category: 'web'
+        category: 'web', 
+        demo: '', 
+        code: 'https://github.com/pvictordev/ondrive',
     },
     {
         id:3,
         image: Work3,
         title: 'Webshop',
-        category: 'web'
+        category: 'web',
+        demo:'',
+        code : 'https://github.com/pvictordev/webshop',
     },
     {
         id:4,
         image: Work4,
         title: 'Socialhub',
-        category: 'web'
+        category: 'web',
+        demo:'',
+        code : 'https://github.com/pvictordev/socialhub',
     },
     // {
     //     id:5,
