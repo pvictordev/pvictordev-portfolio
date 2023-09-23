@@ -56,7 +56,7 @@ const Data = () => {
             </svg>
         </h1>
        <h3 className="home__subtitle">
-            Web Developer
+            Front-End Web Developer
        </h3>
        <p className="home__description">
         I'm a tech-savvy Front-End Developer who specializes in coding and maintaining websites and web applications.
