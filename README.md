@@ -17,7 +17,7 @@ Here, I share not only my projects but also my professional growth. This reposit
 ## Technologies Used
 The Coindom website is built using the following technologies:
 - **React JS**
-- **SCSS**
+- **CSS**
 - **Swiper**
 - **EmailJS**
 
