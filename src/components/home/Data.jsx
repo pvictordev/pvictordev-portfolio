@@ -59,7 +59,7 @@ const Data = () => {
             Front-End Web Developer
        </h3>
        <p className="home__description">
-        I'm a tech-savvy Front-End Developer who specializes in coding and maintaining websites and web applications.
+        I'm a tech-savvy Front-End Developer based in Sibiu, Romania. 📍
        </p>
        <a href="#contact" className="button button--flex">
         Contact Me
