@@ -11,7 +11,8 @@ export const projectsData = [
         image: Work1,
         title: 'Altcoinx',
         category: 'web',
-        demo:'',
+        description:'Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ',
+        demo:'https://altcoinx-one.vercel.app/',
         code : 'https://github.com/pvictordev/altcoinx',
     },
     {
