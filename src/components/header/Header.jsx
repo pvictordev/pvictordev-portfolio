@@ -14,7 +14,7 @@ const Header = () => {
     // toggle menu
     const[Toggle, showMenu] = useState(false)
     const [activeNav, setActiveNav] = useState("#home"); 
-
+    
     return (
         <header className="header">
             <nav className='nav container'>
