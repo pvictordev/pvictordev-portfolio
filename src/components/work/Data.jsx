@@ -1,13 +1,14 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work2.jpg"
+import altcoinx from "../../assets/altcoinx-portfolio-logo.png"
+import ondrive from "../../assets/ondrive-portfolio-logo.png"
 import Work3 from "../../assets/work3.jpg"
 import Work4 from "../../assets/work4.jpg"
+
 
 export const projectsData = [
 
     {
         id:1,
-        image:Work1,
+        image:altcoinx,
         title: 'Altcoinx',
         category: 'web',
         description:'Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ',
@@ -16,9 +17,10 @@ export const projectsData = [
     },
     {
         id:2,
-        image: Work2,
+        image: ondrive,
         title: 'Ondrive',
         category: 'web', 
+        'description' : 'Ondrive is an online platform that allows users to rent cars for personal or business use.',
         demo: '', 
         code: 'https://github.com/pvictordev/ondrive',
     },
