@@ -73,7 +73,8 @@
     transition: 0.4s;
 }
 .work__button:hover .work__button-icon {
-    transform: translateX(0.25rem);
+    /* transform: translateX(0.25rem); */
+    color: var(--title-color);
 }
 
 /*active work*/
@@ -81,6 +82,8 @@
     background-color: var(--title-color);
     color:var(--container-color);
 }
+
+
 
 /*breakpoints*/
 /*for large devices*/

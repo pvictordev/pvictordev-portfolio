@@ -20,10 +20,12 @@ const WorkItems = ({item}) => {
 
           <div className='work__check'>
             <a href={item.code} className="work__button">
-                Code <i className="bx bx-right-arrow-alt work__button-icon"></i>
+                Code <i class="uil uil-github-alt"></i>
+                {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </a>
             <a href={item.demo} className="work__button">
-                Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
+                Demo <i class="uil uil-browser"></i>
+                {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </a>
 
           </div>
