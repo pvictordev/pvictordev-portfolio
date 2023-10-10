@@ -86,10 +86,6 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
-/* body {
-  background-color: var(--title-color);
-  color: var(--body-color);
-} */
 
 h1,
 h2,
