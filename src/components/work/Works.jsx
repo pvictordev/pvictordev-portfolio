@@ -1,8 +1,6 @@
 import React from 'react';
 import { useState } from 'react'; 
 import { useEffect } from 'react'; 
-
-
 import { projectsData } from './Data'; 
 import { projectsNav } from './Data'; 
 import WorkItems from './WorkItems';
