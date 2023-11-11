@@ -45,8 +45,8 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title"> Front End Development Libraries </h3>
-                            <span className="qualification__subtitle">freeCodeCamp</span>
+                            <h3 className="qualification__title"> Learn React </h3>
+                            <span className="qualification__subtitle">Scrimba</span>
                             <div className="qualification__calendar">
                                 <i className="uil uil-calendar-alt"></i> 2022 - 2023
                             </div>
@@ -66,10 +66,10 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">JavaScript Algorithms and Data Structures</h3>
-                            <span className="qualification__subtitle">freeCodeCamp</span>
+                            <h3 className="qualification__title">JavaScript Essentials 1</h3>
+                            <span className="qualification__subtitle">Cisco</span>
                             <div className="qualification__calendar">
-                                <i className="uil uil-calendar-alt"></i> 2022 - 2022
+                                <i className="uil uil-calendar-alt"></i> 2023 - 2023
                             </div>
                         </div>
                     </div>

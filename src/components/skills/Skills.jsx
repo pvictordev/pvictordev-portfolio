@@ -6,18 +6,18 @@ import Backend from './Backend';
 const Skills = () => {
   return (
     <div>
-      <section className='skills section' id="skills">
-        <h2 className="section__title">Skills</h2>
+      <section className="skills section" id="skills">
+        <h2 className="section__title">Tech-Stack</h2>
         <span className="section__subtitle">
-            My technical level
+          Technologies that I use the most
         </span>
         <div className="skills__container container grid">
-            <Frontend/>
-            <Backend/>
+          <Frontend />
+          <Backend />
         </div>
       </section>
     </div>
-  )
+  );
 }
 
 export default Skills

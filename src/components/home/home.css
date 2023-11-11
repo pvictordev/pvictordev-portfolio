@@ -38,15 +38,6 @@
   padding-left: var(--font-normal);
   margin-bottom: var(--mb-1);
 }
-/* .home__subtitle::before {
-    position: absolute;
-    content: '';
-    width: 70px;
-    height: 1px;
-    background-color: var(--text-color);
-    left: 0;
-    top: 1rem;
-} */
 
 .home__description {
   max-width: 400px;
