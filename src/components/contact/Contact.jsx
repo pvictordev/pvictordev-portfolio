@@ -52,8 +52,8 @@ const Contact = () => {
                     <div className="contact__card">
                         <i className="bx bxl-twitter contact__card-icon"></i>
                         <h3 className='contact__card-title'>Twitter</h3>
-                        <span className="contact__card-data">@wftpid</span>
-                        <a href="https://twitter.com/wftpid" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        <span className="contact__card-data">@pvictordev</span>
+                        <a href="https://twitter.com/pvictordev" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>

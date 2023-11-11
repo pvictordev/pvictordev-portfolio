@@ -18,6 +18,9 @@
   color: var(--title-color);
 }
 .home__social-icon {
+  color: var(--title-color);
+}
+.home__social-icon:hover {
   color: var(--title-color-dark);
 }
 
@@ -38,6 +41,7 @@
   padding-left: var(--font-normal);
   margin-bottom: var(--mb-1);
 }
+
 
 .home__description {
   max-width: 400px;

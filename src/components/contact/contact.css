@@ -23,6 +23,9 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
 }
 .contact__card-icon {
     font-size: 2rem;
@@ -38,7 +41,7 @@
 }
 .contact__card-data {
     display: block;
-    margin-bottom: var(--mb-0-75);
+    /* margin-bottom: var(--mb-0-75); */
 }
 .contact__button {
     color: var(--text-color);
