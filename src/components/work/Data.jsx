@@ -41,8 +41,8 @@ export const projectsData = [
     category: "Full-Stack",
     description:
       "On this website i showcase my projects and professional growth, reflecting my journey in the realm of development and technology.",
-    demo: "",
-    code: "https://github.com/pvictordev/socialhub",
+    demo: "https://pvictordev.netlify.app/",
+    code: "https://github.com/pvictordev/pvictordev-portfolio",
   },
   // {
   //     id:4,
