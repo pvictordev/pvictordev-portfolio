@@ -2,6 +2,8 @@ import altcoinx from "../../assets/altcoinx-portfolio-logo.png";
 import ondrive from "../../assets/ondrive-portfolio-logo.png";
 import webshop from "../../assets/webshop-portfolio-logo.png";
 import pvictordev from "../../assets/pvictordev.png";
+import notesApp from "../../assets/notes-app-logo.png";
+import chatzen from "../../assets/chatzen-logo.png";
 
 export const projectsData = [
   {
@@ -40,9 +42,29 @@ export const projectsData = [
     title: "pvictordev",
     category: "Full-Stack",
     description:
-      "On this website i showcase my projects and professional growth, reflecting my journey in the realm of development and technology.",
+      "On this website i showcase my projects and professional growth, reflecting my journey in the development and technology.",
     demo: "https://pvictordev.netlify.app/",
     code: "https://github.com/pvictordev/pvictordev-portfolio",
+  },
+  {
+    id: 5,
+    image: notesApp,
+    title: "Notes App",
+    category: "Full-Stack",
+    description:
+      "Notes App is a streamlined markdown note-taking platform. It boasts an intuitive interface, modern design, and effortless navigation.",
+    demo: "https://pvictordev.netlify.app/",
+    code: "https://github.com/pvictordev/notes-app",
+  },
+  {
+    id: 6,
+    image: chatzen,
+    title: "Chatzen",
+    category: "Full-Stack",
+    description:
+      "ChatZen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
+    demo: "https://pvictordev.netlify.app/",
+    code: "https://github.com/pvictordev/chatzen",
   },
   // {
   //     id:4,
@@ -51,12 +73,6 @@ export const projectsData = [
   //     category: 'Full-Stack',
   //     demo:'',
   //     code : 'https://github.com/pvictordev/socialhub',
-  // },
-  // {
-  //     id:5,
-  //     image: chatzen,
-  //     title: 'Projec',
-  //     category: 'Full-Stack'
   // },
 ];
 
