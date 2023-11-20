@@ -62,7 +62,7 @@ export const projectsData = [
     title: "Chatzen",
     category: "Full-Stack",
     description:
-      "ChatZen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
+      "Chatzen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
     demo: "https://pvictordev.netlify.app/",
     code: "https://github.com/pvictordev/chatzen",
   },
