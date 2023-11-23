@@ -63,7 +63,7 @@ export const projectsData = [
     category: "Full-Stack",
     description:
       "Chatzen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
-    demo: "https://pvictordev.netlify.app/",
+    demo: "https://notes-app-iota-sage.vercel.app/",
     code: "https://github.com/pvictordev/chatzen",
   },
   // {
