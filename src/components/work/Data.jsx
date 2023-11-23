@@ -53,7 +53,7 @@ export const projectsData = [
     category: "Full-Stack",
     description:
       "Notes App is a streamlined markdown note-taking platform. It boasts an intuitive interface, modern design, and effortless navigation.",
-    demo: "https://pvictordev.netlify.app/",
+    demo: "https://notes-app-iota-sage.vercel.app/",
     code: "https://github.com/pvictordev/notes-app",
   },
   {
