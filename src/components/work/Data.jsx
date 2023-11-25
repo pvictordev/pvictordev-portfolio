@@ -17,23 +17,23 @@ import chatzen from "../../assets/chatzen-full.png";
 export const projectsData = [
   {
     id: 1,
-    image: altcoinx,
-    title: "Altcoinx",
+    image: chatzen,
+    title: "Chatzen",
     category: "Full-Stack",
     description:
-      "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ",
-    demo: "https://altcoinx-one.vercel.app/",
-    code: "https://github.com/pvictordev/altcoinx",
+      "Chatzen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
+    demo: "https://pvictordev.netlify.app/",
+    code: "https://github.com/pvictordev/chatzen",
   },
   {
     id: 2,
-    image: ondrive,
-    title: "Ondrive",
-    category: "Front-End",
+    image: notesApp,
+    title: "Notes App",
+    category: "Full-Stack",
     description:
-      "Ondrive is an online platform that allows users to rent cars for personal or business use.",
-    demo: "https://ondrive-plum.vercel.app/",
-    code: "https://github.com/pvictordev/ondrive",
+      "Notes App is a streamlined markdown note-taking platform. It boasts an intuitive interface, modern design, and effortless navigation.",
+    demo: "https://notes-app-iota-sage.vercel.app/",
+    code: "https://github.com/pvictordev/notes-app",
   },
   {
     id: 3,
@@ -47,6 +47,27 @@ export const projectsData = [
   },
   {
     id: 4,
+    image: altcoinx,
+    title: "Altcoinx",
+    category: "Full-Stack",
+    description:
+      "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ",
+    demo: "https://altcoinx-one.vercel.app/",
+    code: "https://github.com/pvictordev/altcoinx",
+  },
+  {
+    id: 5,
+    image: ondrive,
+    title: "Ondrive",
+    category: "Front-End",
+    description:
+      "Ondrive is an online platform that allows users to rent cars for personal or business use.",
+    demo: "https://ondrive-plum.vercel.app/",
+    code: "https://github.com/pvictordev/ondrive",
+  },
+
+  {
+    id: 6,
     image: pvictordev,
     title: "pvictordev",
     category: "Full-Stack",
@@ -55,26 +76,7 @@ export const projectsData = [
     demo: "https://pvictordev.netlify.app/",
     code: "https://github.com/pvictordev/pvictordev-portfolio",
   },
-  {
-    id: 5,
-    image: notesApp,
-    title: "Notes App",
-    category: "Full-Stack",
-    description:
-      "Notes App is a streamlined markdown note-taking platform. It boasts an intuitive interface, modern design, and effortless navigation.",
-    demo: "https://notes-app-iota-sage.vercel.app/",
-    code: "https://github.com/pvictordev/notes-app",
-  },
-  {
-    id: 6,
-    image: chatzen,
-    title: "Chatzen",
-    category: "Full-Stack",
-    description:
-      "Chatzen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
-    demo: "https://pvictordev.netlify.app/",
-    code: "https://github.com/pvictordev/chatzen",
-  },
+
   // {
   //     id:4,
   //     image: socialhub,

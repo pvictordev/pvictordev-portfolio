@@ -17,7 +17,7 @@ const About = () => {
           <div className="about__data">
             <Info />
             <p className="about__description">
-              As a Front-End Developer, i'm eager to contribute my expertise to
+              As a Front-End Developer, I'm eager to contribute my expertise to
               an innovative team that shares the goal of crafting exceptional
               web experiences.
             </p>
