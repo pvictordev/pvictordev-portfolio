@@ -20,7 +20,7 @@ function App() {
       <main className='main'>
         <Home/>
         <About/>
-        <Skills/>
+        {/* <Skills/> */}
         <Services/>
         <Qualification/>
         <Work/>
