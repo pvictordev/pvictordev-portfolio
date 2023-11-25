@@ -32,6 +32,9 @@
   border-radius: 1rem;
   width: 350px;
   align-items: center;
+  transition: 0.2s all ease;
+}
+.work__card:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 .work__img-container {
@@ -42,7 +45,7 @@
   width: 295px;
   border-radius: 0.5rem;
   margin-bottom: var(--mb-1);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .work__text {
   display: flex;
