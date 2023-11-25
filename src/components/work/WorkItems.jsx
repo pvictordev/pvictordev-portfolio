@@ -5,8 +5,7 @@ const WorkItems = ({item}) => {
     <div className='work__card' key={item.id}>
         <div className='work__img-container'>
         <img 
-            src={item.image} 
-            alt=""  
+            src={item.image}  
             className='work__img'
         />
         </div>
@@ -20,11 +19,11 @@ const WorkItems = ({item}) => {
 
           <div className='work__check'>
             <a href={item.code} className="work__button">
-                Code <i class="uil uil-github-alt"></i>
+                Code <i className="uil uil-github-alt"></i>
                 {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </a>
             <a href={item.demo} className="work__button">
-                Demo <i class="uil uil-browser"></i>
+                Demo <i className="uil uil-browser"></i>
                 {/* <i className="bx bx-right-arrow-alt work__button-icon"></i> */}
             </a>
 

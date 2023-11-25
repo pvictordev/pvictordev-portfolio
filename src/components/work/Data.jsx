@@ -51,7 +51,7 @@ export const projectsData = [
     title: "Altcoinx",
     category: "Full-Stack",
     description:
-      "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. ",
+      "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. It fetches data from the CoinGecko API. ",
     demo: "https://altcoinx-one.vercel.app/",
     code: "https://github.com/pvictordev/altcoinx",
   },

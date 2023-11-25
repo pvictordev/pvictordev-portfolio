@@ -41,7 +41,6 @@
 }
 .contact__card-data {
     display: block;
-    /* margin-bottom: var(--mb-0-75); */
 }
 .contact__button {
     color: var(--text-color);
@@ -93,6 +92,9 @@
     padding: 0.25rem;
     background-color: var(--body-color);
     z-index: 10;
+}
+.invalid-label {
+    color: red;
 }
 .contact__form-area {
     height: 11rem;
