@@ -42,25 +42,28 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    if (!validateForm()) {
+    const name = form.current.elements["name"].value.trim();
+    const email = form.current.elements["email"].value.trim();
+    const project = form.current.elements["project"].value.trim();
+
+    if (name && email && project) {
+      if (!validateForm()) {
+        console.log("Form data is not valid");
+        return;
+      }
+
       emailjs.sendForm(
         "service_0e84sxe",
         "template_qlzd03s",
         form.current,
         "GNu-lxdsJTOKjJn6i"
       );
-
-      const name = form.current.elements["name"].value.trim();
-      const email = form.current.elements["email"].value.trim();
-      const project = form.current.elements["project"].value.trim();
-
-      if (name && email && project) {
-        e.target.reset();
-      } else {
-        console.log("not all fields are filled");
-      }
-    }else {
-      console.log("not valid");
+      e.target.reset();
+    } else {
+      console.log("Please fill in all fields");
+      setIsNameValid(!!name);
+      setIsEmailValid(!!email);
+      setIsProjectValid(!!project);
     }
   };
 
