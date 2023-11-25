@@ -1,9 +1,18 @@
-import altcoinx from "../../assets/altcoinx-portfolio-logo.png";
-import ondrive from "../../assets/ondrive-portfolio-logo.png";
-import webshop from "../../assets/webshop-portfolio-logo.png";
-import pvictordev from "../../assets/pvictordev.png";
-import notesApp from "../../assets/notes-app-logo.png";
-import chatzen from "../../assets/chatzen-logo.png";
+//logos
+// import altcoinx from "../../assets/altcoinx-portfolio-logo.png";
+// import ondrive from "../../assets/ondrive-portfolio-logo.png";
+// import webshop from "../../assets/webshop-portfolio-logo.png";
+// import pvictordev from "../../assets/pvictordev.png";
+// import notesApp from "../../assets/notes-app-logo.png";
+// import chatzen from "../../assets/chatzen-logo.png";
+
+//hero sections
+import altcoinx from "../../assets/altcoinx-hero.png";
+import ondrive from "../../assets/ondrive-hero.png";
+import webshop from "../../assets/webshop-hero.png";
+import pvictordev from "../../assets/pvictordev-hero.png";
+import notesApp from "../../assets/notesapp-full.png";
+import chatzen from "../../assets/chatzen-full.png";
 
 export const projectsData = [
   {
