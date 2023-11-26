@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
-const Contact = () => {
+const Contact = ({ theme }) => {
   const form = useRef();
   const [isNameValid, setIsNameValid] = useState(true);
   const [isEmailValid, setIsEmailValid] = useState(true);
@@ -69,15 +69,25 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Contact</h2>
+      <h2 className={theme ? "section__title title-dark" : "section__title"}>
+        Contact
+      </h2>
       <span className="section__subtitle">Get in touch</span>
 
       <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3
+            className={theme ? "contact__title title-dark" : "contact__title"}
+          >
+            Talk to me
+          </h3>
 
           <div className="contact__info">
-            <div className="contact__card">
+            <div
+              className={
+                theme ? "contact__card contact-card-dark" : "contact__card"
+              }
+            >
               <i className="bx bxl-gmail contact__card-icon"></i>
               <h3 className="contact__card-title">Gmail</h3>
               <span className="contact__card-data">pvictor0110@gmail.com</span>
@@ -90,7 +100,11 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div
+              className={
+                theme ? "contact__card contact-card-dark" : "contact__card"
+              }
+            >
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
               <span className="contact__card-data">+40749510629</span>
@@ -100,7 +114,11 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div
+              className={
+                theme ? "contact__card contact-card-dark" : "contact__card"
+              }
+            >
               <i className="bx bxl-twitter contact__card-icon"></i>
               <h3 className="contact__card-title">Twitter</h3>
               <span className="contact__card-data">@pvictordev</span>
@@ -116,10 +134,20 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Write me your project</h3>
+          <h3
+            className={theme ? "contact__title title-dark" : "contact__title"}
+          >
+            Write me your project
+          </h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
-            <div className="contact__form-div">
+            <div
+              className={
+                theme
+                  ? "contact__form-div contact__form-div-dark"
+                  : "contact__form-div"
+              }
+            >
               <label
                 className={`contact__form-tag ${
                   !isNameValid ? "invalid-label" : ""
@@ -135,7 +163,13 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div">
+            <div
+              className={
+                theme
+                  ? "contact__form-div contact__form-div-dark"
+                  : "contact__form-div"
+              }
+            >
               <label
                 className={`contact__form-tag ${
                   !isEmailValid ? "invalid-label" : ""
@@ -151,7 +185,13 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div contact__form-area">
+            <div
+              className={
+                theme
+                  ? "contact__form-div contact__form-area contact__form-div-dark"
+                  : "contact__form-div contact__form-area"
+              }
+            >
               <label
                 className={`contact__form-tag ${
                   !isProjectValid ? "invalid-label" : ""

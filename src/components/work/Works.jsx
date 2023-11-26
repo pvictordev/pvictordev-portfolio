@@ -6,7 +6,7 @@ import { projectsNav } from './Data';
 import WorkItems from './WorkItems';
 
 
-const Works = () => {
+const Works = ({theme}) => {
 
     const [item, setItem] = useState({name: 'all'});
     const [projects, setProjects] = useState([]); 
@@ -58,6 +58,7 @@ const Works = () => {
                     <WorkItems 
                         item={item} 
                         key={item.id}
+                        theme={theme}
                     />
                 )
             })}

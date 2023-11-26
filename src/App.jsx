@@ -32,12 +32,12 @@ function App() {
         <About theme={theme} />
         {/* <Skills/> */}
         <Services theme={theme} />
-        <Qualification />
-        <Work />
+        <Qualification theme={theme} />
+        <Work theme={theme} />
         {/* <Testimonials/> */}
-        <Contact />
+        <Contact theme={theme} />
       </main>
-      <Footer />
+      <Footer theme={theme} />
       <ScrollUp />
     </div>
   );

@@ -7,7 +7,7 @@
 }
 .work__item {
   cursor: pointer;
-  color: var(--title-color);
+  color: var(--theme-color);
   padding: 0.25rem 0.75rem;
   font-weight: var(--font-medium);
   border-radius: 0.5rem;
@@ -64,7 +64,6 @@
 }
 .work__description {
   font-size: 1rem;
-  /* margin-bottom: 1.25rem; */
 }
 .work__button {
   color: var(--text-color);
@@ -82,8 +81,24 @@
   transition: 0.4s;
 }
 .work__button:hover .work__button-icon {
-  /* transform: translateX(0.25rem); */
   color: black;
+}
+
+.work-card-dark {
+  background-color: var(--theme-color-dark);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+.work-card-dark:hover {
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+.work__title-dark {
+  color: var(--body-color);
+}
+.work-button-dark {
+  color: var(--theme-color-lighter);
+}
+.work-button-dark:hover {
+  color: var(--body-color);
 }
 
 /*active work*/
