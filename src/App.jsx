@@ -14,16 +14,19 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   //theme color
-  const [theme, setTheme] = useState(false);
+  const storedTheme = localStorage.getItem("theme");
+  const [theme, setTheme] = useState(
+    storedTheme ? JSON.parse(storedTheme) : false
+  );
 
   useEffect(() => {
+    localStorage.setItem("theme", JSON.stringify(theme));
     document.body.className = theme ? "dark" : "light";
   }, [theme]);
 
   const themeToggle = () => {
     setTheme((prev) => !prev);
   };
-
   return (
     <div className="app">
       <Header theme={theme} themeToggle={themeToggle} />
