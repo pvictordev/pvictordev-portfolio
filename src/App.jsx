@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -15,18 +15,23 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 function App() {
   //theme color
   const [theme, setTheme] = useState(false);
+
+  useEffect(() => {
+    document.body.className = theme ? "dark" : "light";
+  }, [theme]);
+
   const themeToggle = () => {
     setTheme((prev) => !prev);
   };
 
   return (
     <div className="app">
-      <Header />
+      <Header theme={theme} themeToggle={themeToggle} />
       <main className="main">
-        <Home />
-        <About />
+        <Home theme={theme} />
+        <About theme={theme} />
         {/* <Skills/> */}
-        <Services />
+        <Services theme={theme} />
         <Qualification />
         <Work />
         {/* <Testimonials/> */}

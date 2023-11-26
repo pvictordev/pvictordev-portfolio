@@ -27,16 +27,30 @@
 .about__box:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.box-dark {
+  background-color: var(--title-color);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.box-dark:hover {
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.15);
+}
 
 .about__icon {
   font-size: 1.5rem;
   color: var(--title-color);
   margin-bottom: var(--mb-0-5);
 }
+.about-icon-dark {
+  color: var(--theme-color-lighter);
+}
+
 
 .about__title {
   font-size: var(--small-font-size);
   font-weight: var(--font-medium);
+}
+.about-title-dark {
+  color: var(--theme-color-lighter);
 }
 .about__subtitle {
   font-size: var(--tiny-font-size);

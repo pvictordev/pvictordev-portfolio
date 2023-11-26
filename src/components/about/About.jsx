@@ -4,18 +4,20 @@ import AboutImg from "../../assets/about.png";
 import CV from "../../assets/cv.pdf";
 import Info from "./Info";
 
-const About = () => {
+const About = ({ theme }) => {
   return (
     <div>
       <section className="about section" id="about">
-        <h2 className="section__title">About me</h2>
+        <h2 className={theme ? "section__title title-dark" : "section__title"}>
+          About me
+        </h2>
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
           <img src={AboutImg} alt="" className="about__img" />
 
           <div className="about__data">
-            <Info />
+            <Info theme={theme} />
             <p className="about__description">
               As a Front-End Developer, I'm eager to contribute my expertise to
               an innovative team that shares the goal of crafting exceptional

@@ -4,16 +4,16 @@ import Social from "./Social";
 import Data from "./Data";
 import ScrollDown from "./ScrollDown";
 
-const Home = () => {
+const Home = ({ theme }) => {
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">
         <div className="home__content grid">
-          <Social />
-          <div className="home__img"></div>
-          <Data />
+          <Social theme={theme} />
+          <div className={theme ? "home__img img-dark" : "home__img"}></div>
+          <Data theme={theme} />
         </div>
-        <ScrollDown />
+        <ScrollDown theme={theme} />
       </div>
     </section>
   );

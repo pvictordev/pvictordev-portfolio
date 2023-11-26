@@ -1,27 +1,36 @@
 import React, { useState } from "react";
 import "./header.css";
-const Header = () => {
-  //change bg Header
+const Header = ({ theme, themeToggle }) => {
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
-    //when scroll is higher than 200 vh, add the scroll-header to a tag with the header tah
     if (this.scrollY >= 200) {
       header.classList.add("scroll-header");
     } else {
       header.classList.remove("scroll-header");
     }
   });
+
   // toggle menu
   const [Toggle, showMenu] = useState(false);
+  // active and remove menu
   const [activeNav, setActiveNav] = useState("#home");
 
   return (
-    <header className="header">
+    <header className={`header ${theme ? "dark" : "light"}`}>
       <nav className="nav container">
-        <i className="bx bx-adjust theme-toggle"></i>
-        <a href="index.html" className="nav__logo">
+        <i
+          className={`bx bx-adjust theme-toggle__icon ${
+            theme ? "theme-toggle__icon-dark" : ""
+          }`}
+          onClick={themeToggle}
+        ></i>
+        <a
+          href="#home"
+          className={`nav__logo ${theme ? "nav__logo-dark" : ""}`}
+        >
           pvictordev
         </a>
+
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className="nav__list grid">
             <li className="nav__item">
@@ -29,10 +38,16 @@ const Header = () => {
                 href="#home"
                 onClick={() => setActiveNav("#home")}
                 className={
-                  activeNav === "#home" ? "nav__link active-link" : "nav__link"
+                  theme
+                    ? activeNav === "#home"
+                      ? "nav__link-dark active-link-dark"
+                      : "nav__link-dark"
+                    : activeNav === "#home"
+                    ? "nav__link active-link"
+                    : "nav__link"
                 }
               >
-                <i className="uil uil-estate nav__icon"></i> Home
+                <i className="uil uil-user nav__icon"></i> Home
               </a>
             </li>
 
@@ -41,7 +56,13 @@ const Header = () => {
                 href="#about"
                 onClick={() => setActiveNav("#about")}
                 className={
-                  activeNav === "#about" ? "nav__link active-link" : "nav__link"
+                  theme
+                    ? activeNav === "#home"
+                      ? "nav__link-dark active-link-dark"
+                      : "nav__link-dark"
+                    : activeNav === "#home"
+                    ? "nav__link active-link"
+                    : "nav__link"
                 }
               >
                 <i className="uil uil-user nav__icon"></i> About
@@ -49,23 +70,29 @@ const Header = () => {
             </li>
 
             {/* <li className="nav__item">
-                            <a 
-                                href="#skills"
-                                onClick={() => setActiveNav("#skills")} 
-                                className={
-                                    activeNav === "#skills" ? "nav__link active-link":"nav__link"
-                                }
-                            >
-                                <i className="uil uil-file-alt nav__icon"></i> Skills
-                            </a>
-                        </li> */}
+              <a
+                href="#skills"
+                onClick={() => setActiveNav("#skills")}
+                className={
+                  activeNav === "#skills"
+                    ? "nav__link active-link"
+                    : "nav__link"
+                }
+              >
+                <i className="uil uil-file-alt nav__icon"></i> Skills
+              </a>
+            </li> */}
 
             <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
                 className={
-                  activeNav === "#services"
+                  theme
+                    ? activeNav === "#home"
+                      ? "nav__link-dark active-link-dark"
+                      : "nav__link-dark"
+                    : activeNav === "#home"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -79,7 +106,11 @@ const Header = () => {
                 href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
                 className={
-                  activeNav === "#portfolio"
+                  theme
+                    ? activeNav === "#home"
+                      ? "nav__link-dark active-link-dark"
+                      : "nav__link-dark"
+                    : activeNav === "#home"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -93,12 +124,16 @@ const Header = () => {
                 href="#contact"
                 onClick={() => setActiveNav("#contact")}
                 className={
-                  activeNav === "#contact"
+                  theme
+                    ? activeNav === "#home"
+                      ? "nav__link-dark active-link-dark"
+                      : "nav__link-dark"
+                    : activeNav === "#home"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
               >
-                <i className="uil uil-message nav__icon"></i> Contact
+                <i className="uil uil-scenery nav__icon"></i> Contact
               </a>
             </li>
           </ul>
