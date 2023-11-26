@@ -12,6 +12,9 @@
   border-radius: 1.5rem;
   transition: 0.15s all ease;
 }
+.services__content:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
 .content-services-dark {
   background-color: var(--title-color);
   border: 1px solid var(--theme-color-lighter);
