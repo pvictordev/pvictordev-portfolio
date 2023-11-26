@@ -26,7 +26,7 @@
 
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-0-25);
+  margin-bottom: var(--mb-1);
 }
 
 .home__hand {
@@ -105,18 +105,9 @@
     grid-template-columns: 100px repeat(2, 1fr);
     column-gap: 1.25rem;
   }
-  .home__hand {
-    width: 26px;
-    height: 26px;
-  }
   .home__subtitle {
-    /* padding-left: 3.75rem; */
     margin-bottom: var(--mb-1);
   }
-  /* .home__subtitle::before {
-            width: 42px;
-            top:0.8rem;
-        } */
   .home__description {
     max-width: initial;
     margin-bottom: var(--mb-2-5);
@@ -153,13 +144,6 @@
     display: none;
   }
 }
-
-/* @media screen and (max-width: 576px) {
-        .home__container {
-
-        }
-    } */
-
 /* For small devices */
 @media screen and (max-width: 350px) {
   .home__img {

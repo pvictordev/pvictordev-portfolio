@@ -61,7 +61,7 @@ export const projectsData = [
     title: "Ondrive",
     category: "Front-End",
     description:
-      "Ondrive is an online platform that allows users to rent cars for personal or business use.",
+      "Ondrive is an online platform with easy-to-use interface that allows users to rent cars for personal or business use.",
     demo: "https://ondrive-plum.vercel.app/",
     code: "https://github.com/pvictordev/ondrive",
   },
