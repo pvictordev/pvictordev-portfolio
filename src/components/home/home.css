@@ -15,10 +15,7 @@
 }
 .home__social-icon {
   font-size: 1.25rem;
-  color: var(--title-color);
-}
-.home__social-icon {
-  color: var(--title-color);
+  transition: 0.15s all ease;
 }
 .home__social-icon:hover {
   color: var(--title-color-dark);

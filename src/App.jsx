@@ -1,37 +1,41 @@
-import React from 'react'
-import './App.css'
-import Header from './components/header/Header'
-import Home from './components/home/Home'
-import About from './components/about/About'
+import React, {useState} from "react";
+import "./App.css";
+import Header from "./components/header/Header";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
 // import Skills from './components/skills/Skills'
-import Services from './components/services/Services'
-import Qualification from './components/qualification/Qualification'
-import Work from './components/work/Work'
+import Services from "./components/services/Services";
+import Qualification from "./components/qualification/Qualification";
+import Work from "./components/work/Work";
 // import Testimonials from './components/testimonials/Testimonials'
-import Contact from './components/contact/Contact'
-import Footer from './components/footer/Footer'
-import ScrollUp from './components/scrollup/ScrollUp'
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
-  return (
-    <div className='app'>
-      <Header/>
+  //theme color
+  const [theme, setTheme] = useState(false);
+  const themeToggle = () => {
+    setTheme((prev) => !prev);
+  };
 
-      <main className='main'>
-        <Home/>
-        <About/>
+  return (
+    <div className="app">
+      <Header />
+      <main className="main">
+        <Home />
+        <About />
         {/* <Skills/> */}
-        <Services/>
-        <Qualification/>
-        <Work/>
+        <Services />
+        <Qualification />
+        <Work />
         {/* <Testimonials/> */}
-        <Contact/>
-        
+        <Contact />
       </main>
-      <Footer/>
-      <ScrollUp/>
+      <Footer />
+      <ScrollUp />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

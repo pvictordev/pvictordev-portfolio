@@ -11,6 +11,7 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --theme-color-dark: hsl(var(--hue), var(--sat), 10%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
@@ -82,27 +83,38 @@ textarea {
   font-size: var(--normal-font-size);
 }
 
+/*
+shades of white: 
+container-color - is the whitest white
+body-color - is the darkest white
+
+shades of black:
+text-color - is the whitest black
+title-color - is the lightest black
+title-color-dark - is the darkest black
+*/
+
 body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
-body::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
+.dark {
+  background-color: var(--theme-color-dark);
+  color: var(--body-color);
+}
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
 }
 
-body::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
 }
 
-body::-webkit-scrollbar-thumb
-{
+body::-webkit-scrollbar-thumb {
   background-color: var(--title-color);
 }
-
 
 h1,
 h2,
@@ -117,6 +129,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--title-color);
 }
 
 button {
