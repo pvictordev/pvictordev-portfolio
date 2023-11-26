@@ -1,5 +1,4 @@
 import React from "react";
-import ondriveDark from "../../assets/img/ondrive-hero-dark.png";
 
 const WorkItems = ({ item, theme }) => {
   return (
