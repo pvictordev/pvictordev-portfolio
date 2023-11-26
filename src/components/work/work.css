@@ -71,22 +71,23 @@
   display: flex;
   align-items: center;
   column-gap: 0.25rem;
-  transition: 0.1s all ease;
+  transition: 0.2s all ease;
 }
 .work__button:hover {
   color: var(--title-color-dark);
 }
 .work__button-icon {
   font-size: 1.25 rem;
-  transition: 0.4s;
 }
 .work__button:hover .work__button-icon {
   color: black;
 }
 
 .work-card-dark {
-  background-color: var(--theme-color-dark);
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  /* background-color: var(--theme-color-dark);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1); */
+  background-color: var(--title-color);
+  border: 1px solid var(--theme-color-lighter);
 }
 .work-card-dark:hover {
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);

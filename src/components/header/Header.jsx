@@ -93,7 +93,7 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#home"
-                    ? "nav__link active-link"
+                    ? "nav__link active-link-dark active-link"
                     : "nav__link"
                 }
               >

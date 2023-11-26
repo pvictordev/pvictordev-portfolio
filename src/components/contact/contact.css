@@ -57,6 +57,7 @@
 }
 .contact-card-dark {
   background-color: var(--title-color);
+  border: 1px solid var(--theme-color-lighter);
   transition: 0.2s all ease;
   .contact__card-title {
     color: var(--theme-color-lighter);
