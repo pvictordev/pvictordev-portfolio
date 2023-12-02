@@ -12,7 +12,7 @@ Deploy: https://pvictordev.netlify.app/ -->
 
 Here, I share not only my projects but also my professional growth. This repository houses my portfolio website, reflecting my journey in the world of development and technology.
 
-**Live Demo**: [Victor Purice | pvictordev](https://pvictordev.netlify.app/)
+**Live Demo**: [pvictordev](https://pvictordev.netlify.app/)
 
 ## Technologies Used
 The Coindom website is built using the following technologies:
