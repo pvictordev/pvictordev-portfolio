@@ -19,7 +19,7 @@ export const projectsData = [
     id: 1,
     image: chatzen,
     title: "Chatzen",
-    category: "Full-Stack",
+    category: "In Process",
     description:
       "Chatzen is a user-friendly chat application project. It provides an intuitive platform for users to connect and engage in conversations.",
     demo: "https://pvictordev.netlify.app/",
@@ -29,7 +29,7 @@ export const projectsData = [
     id: 2,
     image: notesApp,
     title: "Notes App",
-    category: "Full-Stack",
+    category: "Finished",
     description:
       "Notes App is a streamlined markdown note-taking platform. It boasts an intuitive interface, modern design, and effortless navigation.",
     demo: "https://notes-app-iota-sage.vercel.app/",
@@ -39,7 +39,7 @@ export const projectsData = [
     id: 3,
     image: webshop,
     title: "Webshop",
-    category: "Full-Stack",
+    category: "Finished",
     description:
       "Webshop is an e-commerce website with intuitive design and a simple shopping experience that puts focus on the products.",
     demo: "https://webshop-ebon.vercel.app/",
@@ -49,7 +49,7 @@ export const projectsData = [
     id: 4,
     image: altcoinx,
     title: "Altcoinx",
-    category: "Full-Stack",
+    category: "Finished",
     description:
       "Altcoinx is a website that allows users to access real-time information about various cryptocurrencies. It fetches data from the CoinGecko API. ",
     demo: "https://altcoinx-one.vercel.app/",
@@ -59,7 +59,7 @@ export const projectsData = [
     id: 5,
     image: ondrive,
     title: "Ondrive",
-    category: "Front-End",
+    category: "Finished",
     description:
       "Ondrive is an online platform with easy-to-use interface that allows users to rent cars for personal or business use.",
     demo: "https://ondrive-plum.vercel.app/",
@@ -70,7 +70,7 @@ export const projectsData = [
     id: 6,
     image: pvictordev,
     title: "pvictordev",
-    category: "Full-Stack",
+    category: "Finished",
     description:
       "On this website i showcase my projects and professional growth, reflecting my journey in the development and technology.",
     demo: "https://pvictordev.netlify.app/",
@@ -92,10 +92,10 @@ export const projectsNav = [
     name: "all",
   },
   {
-    name: "Front-End",
+    name: "Finished",
   },
   {
-    name: "Full-Stack",
+    name: "In Process",
   },
   // {
   //     name: 'design',

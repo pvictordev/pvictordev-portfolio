@@ -212,12 +212,13 @@ const Qualification = ({ theme }) => {
             >
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Web Developer</h3>
-                  <span className="qualification__subtitle">
-                    Personal Projects
-                  </span>
+                  <h3 className="qualification__title">
+                    WebDev Remote Learning
+                  </h3>
+                  <span className="qualification__subtitle">Nagarro</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                    {/* <i className="uil uil-calendar-alt"></i>  */}
+                    Nov 2023 - Present
                   </div>
                 </div>
 
@@ -235,20 +236,24 @@ const Qualification = ({ theme }) => {
                   <span className="qualification__line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">Back-End Developer</h3>
-                  <span className="qualification__subtitle"> Freelance</span>
+                  <h3 className="qualification__title">Web Developer</h3>
+                  <span className="qualification__subtitle">
+                    Personal Projects
+                  </span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2023 - Present
+                    {/* <i className="uil uil-calendar-alt"></i>  */}
+                    Mar 2023 - Present
                   </div>
                 </div>
               </div>
 
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Front-End Developer</h3>
+                  <h3 className="qualification__title">Web Developer</h3>
                   <span className="qualification__subtitle">Freelance</span>
                   <div className="qualification__calendar">
-                    <i className="uil uil-calendar-alt"></i> 2022 - Present
+                    {/* <i className="uil uil-calendar-alt"></i> */}
+                    Feb 2023 - Present
                   </div>
                 </div>
 
