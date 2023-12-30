@@ -1,10 +1,14 @@
-import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.png";
 import CV from "../../assets/cv.pdf";
 import Info from "./Info";
+import PropTypes from "prop-types";
 
 const About = ({ theme }) => {
+  About.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
+
   return (
     <div>
       <section className="about section" id="about">
@@ -19,14 +23,14 @@ const About = ({ theme }) => {
           <div className="about__data">
             <Info theme={theme} />
             <p className="about__description">
-              As a Front-End Developer, I'm eager to contribute my expertise to
+              As a Front-End Developer, I am eager to contribute my expertise to
               an innovative team that shares the goal of crafting exceptional
               web experiences.
             </p>
             <a download="" href={CV} className=" button button--flex">
               Check my CV
               <svg
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"

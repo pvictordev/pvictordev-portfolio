@@ -1,6 +1,9 @@
-import React from "react";
 import "./footer.css";
+import PropTypes from "prop-types";
 const Footer = ({ theme }) => {
+  Footer.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
   return (
     <footer className={theme ? "footer footer-dark" : "footer"}>
       <div className="footer__container">

@@ -1,8 +1,12 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
+import PropTypes from "prop-types";
 
 const Contact = ({ theme }) => {
+  Contact.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
   const form = useRef();
   const [isNameValid, setIsNameValid] = useState(true);
   const [isEmailValid, setIsEmailValid] = useState(true);

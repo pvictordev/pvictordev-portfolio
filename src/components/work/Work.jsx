@@ -1,8 +1,11 @@
-import React from "react";
 import "./work.css";
 import Works from "./Works";
+import PropTypes from "prop-types";
 
-const Work = ({theme}) => {
+const Work = ({ theme }) => {
+  Work.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
   return (
     <div>
       <section className="work section" id="portfolio">
@@ -11,7 +14,7 @@ const Work = ({theme}) => {
         </h2>
         <span className="section__subtitle">My personal projects</span>
 
-        <Works theme={theme}/>
+        <Works theme={theme} />
       </section>
     </div>
   );

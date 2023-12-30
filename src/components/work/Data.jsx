@@ -27,6 +27,16 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: chatzen,
+    title: "SocialHub",
+    category: "In Process",
+    description:
+      "SocialHub is a social media app which offers an intuitive space to interact, converse, and build connections with friends and colleagues.",
+    demo: "https://pvictordev.netlify.app/",
+    code: "https://github.com/pvictordev/socialhub",
+  },
+  {
+    id: 3,
     image: notesApp,
     title: "Notes App",
     category: "Finished",
@@ -36,7 +46,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/notes-app",
   },
   {
-    id: 3,
+    id: 4,
     image: webshop,
     title: "Webshop",
     category: "Finished",
@@ -46,7 +56,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/webshop",
   },
   {
-    id: 4,
+    id: 5,
     image: altcoinx,
     title: "Altcoinx",
     category: "Finished",
@@ -56,7 +66,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/altcoinx",
   },
   {
-    id: 5,
+    id: 6,
     image: ondrive,
     title: "Ondrive",
     category: "Finished",
@@ -67,7 +77,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 7,
     image: pvictordev,
     title: "pvictordev",
     category: "Finished",

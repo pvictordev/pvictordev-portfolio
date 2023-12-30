@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./qualification.css";
+import PropTypes from "prop-types";
 
 const Qualification = ({ theme }) => {
+  Qualification.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
+
   const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {

@@ -7,7 +7,7 @@ Deploy: https://pvictordev.netlify.app/ -->
   <img width="200" height="200" src="https://github.com/pvictordev/pvictordev-portfolio/blob/main/src/assets/logo.png">
 </p>
 
-## pvictordev - Code of My Career
+## pvictordev - Portfolio Website
 
 Here, I share not only my projects but also my professional growth. This repository houses my portfolio website, reflecting my journey in the world of development and technology.
 

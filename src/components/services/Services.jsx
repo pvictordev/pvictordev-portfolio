@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./services.css";
+import PropTypes from "prop-types";
 const Services = ({ theme }) => {
+  Services.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
   const [toggleState, setToggleState] = useState(0);
 
   const toggleTab = (index) => {

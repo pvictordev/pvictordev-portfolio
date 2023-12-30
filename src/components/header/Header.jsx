@@ -1,6 +1,13 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./header.css";
+import PropTypes from "prop-types";
+
 const Header = ({ theme, themeToggle }) => {
+  Header.propTypes = {
+    theme: PropTypes.bool.isRequired,
+    themeToggle: PropTypes.func.isRequired,
+  };
+
   window.addEventListener("scroll", function () {
     const header = document.querySelector(".header");
     if (this.scrollY >= 200) {
