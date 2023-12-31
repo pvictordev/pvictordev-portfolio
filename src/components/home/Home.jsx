@@ -16,7 +16,20 @@ const Home = ({ theme }) => {
           <div className={theme ? "home__img img-dark" : "home__img"}></div>
           <Data theme={theme} />
         </div>
-        <ScrollDown theme={theme} />
+
+        <div className="home__content-bottom">
+          <ScrollDown theme={theme} />
+          <div className="content-stack">
+            <p>Tech Stack</p>
+            {theme ? (
+              <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express,figma&theme=dark" />
+            ) : (
+              <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express,figma&theme=light" />
+            )}
+          </div>
+        </div>
+
+        {/* <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express,figma&theme=dark" /> */}
       </div>
     </section>
   );

@@ -31,7 +31,7 @@ export const projectsData = [
     title: "SocialHub",
     category: "In Process",
     description:
-      "SocialHub is a social media app which offers an intuitive space to interact, converse, and build connections with friends and colleagues.",
+      "SocialHub is a user-friendly social platform. It provides an intuitive space to and build connections with friends and colleagues.",
     demo: "https://pvictordev.netlify.app/",
     code: "https://github.com/pvictordev/socialhub",
   },

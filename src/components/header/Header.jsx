@@ -96,15 +96,15 @@ const Header = ({ theme, themeToggle }) => {
                 onClick={() => setActiveNav("#services")}
                 className={
                   theme
-                    ? activeNav === "#home"
+                    ? activeNav === "#services"
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
-                    : activeNav === "#home"
-                    ? "nav__link active-link-dark active-link"
+                    : activeNav === "#services"
+                    ? "nav__link active-link"
                     : "nav__link"
                 }
               >
-                <i className="uil uil-briefcase-alt nav__icon"></i> Services
+                <i className="uil uil-user nav__icon"></i>Services
               </a>
             </li>
 
