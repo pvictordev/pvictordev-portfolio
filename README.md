@@ -19,8 +19,6 @@ The Coindom website is built using the following technologies:
 
 - **React JS**
 - **CSS**
-- **Swiper**
-- **EmailJS**
 
 ## Features
 
