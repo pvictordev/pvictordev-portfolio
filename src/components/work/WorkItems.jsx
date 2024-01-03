@@ -1,6 +1,10 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const WorkItems = ({ item, theme }) => {
+  WorkItems.propTypes = {
+    item: PropTypes.object.isRequired,
+    theme: PropTypes.bool.isRequired,
+  };
   return (
     <div
       className={theme ? "work__card work-card-dark" : "work__card"}

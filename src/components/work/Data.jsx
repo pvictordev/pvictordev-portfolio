@@ -13,6 +13,7 @@ import webshop from "../../assets/webshop-hero.png";
 import pvictordev from "../../assets/pvictordev-hero.png";
 import notesApp from "../../assets/notesapp-full.png";
 import chatzen from "../../assets/chatzen-full.png";
+import socialhub from "../../assets/socialhub-logo.png";
 
 export const projectsData = [
   {
@@ -27,7 +28,7 @@ export const projectsData = [
   },
   {
     id: 2,
-    image: chatzen,
+    image: socialhub,
     title: "SocialHub",
     category: "In Process",
     description:

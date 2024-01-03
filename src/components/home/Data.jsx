@@ -1,6 +1,9 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const Data = ({ theme }) => {
+  Data.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
   return (
     <div className="home__data">
       <h1 className={theme ? "home__title title-dark" : "home__title"}>
@@ -59,12 +62,12 @@ const Data = ({ theme }) => {
         Front-End Web Developer
       </h3>
       <p className="home__description">
-        I'm a tech-savvy Front-End Developer based in Sibiu, Romania. 📍
+        I am a tech-savvy Front-End Developer based in Sibiu, Romania. 📍
       </p>
       <a
         href="#contact"
         //   className={theme ? "button button--flex" : ""}
-          className="button button--flex"
+        className="button button--flex"
       >
         Contact Me
         <svg

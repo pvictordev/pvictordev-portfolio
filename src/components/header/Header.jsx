@@ -20,7 +20,7 @@ const Header = ({ theme, themeToggle }) => {
   // toggle menu
   const [Toggle, showMenu] = useState(false);
   // active and remove menu
-  const [activeNav, setActiveNav] = useState("#home");
+  const [activeNav, setActiveNav] = useState("");
 
   return (
     <header className={`header ${theme ? "dark" : "light"}`}>
