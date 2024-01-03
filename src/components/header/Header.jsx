@@ -64,10 +64,10 @@ const Header = ({ theme, themeToggle }) => {
                 onClick={() => setActiveNav("#about")}
                 className={
                   theme
-                    ? activeNav === "#home"
+                    ? activeNav === "#about"
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
-                    : activeNav === "#home"
+                    : activeNav === "#about"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -114,10 +114,10 @@ const Header = ({ theme, themeToggle }) => {
                 onClick={() => setActiveNav("#portfolio")}
                 className={
                   theme
-                    ? activeNav === "#home"
+                    ? activeNav === "#portfolio"
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
-                    : activeNav === "#home"
+                    : activeNav === "#portfolio"
                     ? "nav__link active-link"
                     : "nav__link"
                 }
@@ -132,10 +132,10 @@ const Header = ({ theme, themeToggle }) => {
                 onClick={() => setActiveNav("#contact")}
                 className={
                   theme
-                    ? activeNav === "#home"
+                    ? activeNav === "#contact"
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
-                    : activeNav === "#home"
+                    : activeNav === "#contact"
                     ? "nav__link active-link"
                     : "nav__link"
                 }

@@ -29,7 +29,7 @@
   transition: 0.15s all ease;
 }
 .contact__card:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 .contact__card-icon {
   font-size: 2rem;
@@ -67,7 +67,7 @@
   }
 }
 .contact-card-dark:hover {
-  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.25);
 }
 
 .contact__button-icon {
