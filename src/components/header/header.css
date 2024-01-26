@@ -69,7 +69,7 @@
 
 .nav__icon,
 .nav__close,
-.nav__close-dark
+.nav__close-dark,
 .nav__toggle,
 .nav__toggle-dark {
   display: none;
@@ -158,7 +158,7 @@
 
   .nav__icon,
   .nav__close,
-  .nav__close-dark
+  .nav__close-dark,
   .nav__toggle,
   .nav__toggle-dark {
     display: block;
