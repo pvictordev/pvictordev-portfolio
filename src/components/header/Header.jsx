@@ -38,7 +38,7 @@ const Header = ({ theme, themeToggle }) => {
           pvictordev
         </a>
 
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={theme ? (Toggle ? "nav__menu-dark show-menu" : "nav__menu"): (Toggle ? "nav__menu show-menu" : "nav__menu")}>
           <ul className="nav__list grid">
             <li className="nav__item">
               <a
@@ -145,11 +145,11 @@ const Header = ({ theme, themeToggle }) => {
             </li>
           </ul>
           <i
-            className="uil uil-times nav__close"
+            className={theme ? "uil uil-times nav__close-dark": "uil uil-times nav__close" }
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className={theme ? "nav__toggle-dark" : "nav__toggle" } onClick={() => showMenu(!Toggle)}>
           <i className="uil uil-apps"></i>
         </div>
       </nav>
