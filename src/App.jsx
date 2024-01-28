@@ -13,12 +13,23 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 // import Skills from './components/skills/Skills'
 
 function App() {
-  //theme color
-  const storedTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(
-    storedTheme ? JSON.parse(storedTheme) : false
-  );
+  //system default theme
+  const prefersDarkMode =
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
 
+  const [theme, setTheme] = useState(prefersDarkMode);
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme !== null) {
+      setTheme(JSON.parse(storedTheme));
+    } else {
+      setTheme(prefersDarkMode);
+    }
+  }, [prefersDarkMode]);
+
+  //switch theme
   useEffect(() => {
     localStorage.setItem("theme", JSON.stringify(theme));
     document.body.className = theme ? "dark" : "light";
