@@ -14,20 +14,23 @@ import ScrollUp from "./components/scrollup/ScrollUp";
 
 function App() {
   //system default theme
-  const prefersDarkMode =
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  const [theme, setTheme] = useState(prefersDarkMode);
+  const [theme, setTheme] = useState(
+    () => window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
 
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    if (storedTheme !== null) {
-      setTheme(JSON.parse(storedTheme));
-    } else {
-      setTheme(prefersDarkMode);
-    }
-  }, [prefersDarkMode]);
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const handleChange = (e) => {
+      setTheme(e.matches);
+    };
+
+    mediaQuery.addListener(handleChange);
+
+    return () => {
+      mediaQuery.removeListener(handleChange);
+    };
+  }, []);
 
   //switch theme
   useEffect(() => {
