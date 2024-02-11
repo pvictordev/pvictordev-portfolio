@@ -7,7 +7,7 @@ const Data = ({ theme }) => {
   return (
     <div className="home__data">
       <h1 className={theme ? "home__title title-dark" : "home__title"}>
-        Victor Purice
+        Hi, I&apos;m Victor
         <svg
           width="36"
           height="36"
@@ -62,7 +62,7 @@ const Data = ({ theme }) => {
         Front-End Web Developer
       </h3>
       <p className="home__description">
-        I am a tech-savvy Front-End Developer based in Sibiu, Romania. 📍
+        I am a Web Developer and Computer Science student based in Romania. 📍
       </p>
       <a
         href="#contact"

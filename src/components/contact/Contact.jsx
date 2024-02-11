@@ -32,7 +32,7 @@ const Contact = ({ theme }) => {
       setIsEmailValid(true);
     }
 
-    const project = form.current.elements["project"].value.trim();
+    const project = form.current.elements["message"].value.trim();
     if (!project) {
       isValid = false;
       setIsProjectValid(false);
@@ -48,7 +48,7 @@ const Contact = ({ theme }) => {
 
     const name = form.current.elements["name"].value.trim();
     const email = form.current.elements["email"].value.trim();
-    const project = form.current.elements["project"].value.trim();
+    const project = form.current.elements["message"].value.trim();
 
     if (name && email && project) {
       if (!validateForm()) {
@@ -141,7 +141,7 @@ const Contact = ({ theme }) => {
           <h3
             className={theme ? "contact__title title-dark" : "contact__title"}
           >
-            Write me your project
+            Let&apos;s get in touch
           </h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -153,9 +153,8 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${
-                  !isNameValid ? "invalid-label" : ""
-                }`}
+                className={`contact__form-tag ${!isNameValid ? "invalid-label" : ""
+                  }`}
               >
                 Name
               </label>
@@ -175,9 +174,8 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${
-                  !isEmailValid ? "invalid-label" : ""
-                }`}
+                className={`contact__form-tag ${!isEmailValid ? "invalid-label" : ""
+                  }`}
               >
                 E-Mail
               </label>
@@ -197,19 +195,18 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${
-                  !isProjectValid ? "invalid-label" : ""
-                }`}
+                className={`contact__form-tag ${!isProjectValid ? "invalid-label" : ""
+                  }`}
               >
-                Project
+                Message
               </label>
               <textarea
-                name="project"
+                name="message"
                 id=""
                 cols="30"
                 rows="10"
                 className="contact__form-input"
-                placeholder="Write your project"
+                placeholder="Write your message"
               ></textarea>
             </div>
 

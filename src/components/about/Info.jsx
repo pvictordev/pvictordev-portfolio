@@ -1,6 +1,11 @@
-import React from "react";
+
+import PropTypes from "prop-types";
 
 const Info = ({ theme }) => {
+  Info.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
+
   return (
     <div>
       <div className="about__info grid">
@@ -17,7 +22,7 @@ const Info = ({ theme }) => {
           >
             Experience
           </h3>
-          <span className="about__subtitle">1 Year Freelance</span>
+          <span className="about__subtitle">1+ Year</span>
         </div>
 
         <div className={theme ? "about__box box-dark" : "about__box"}>
@@ -33,7 +38,7 @@ const Info = ({ theme }) => {
           >
             Completed
           </h3>
-          <span className="about__subtitle">10+ Projects</span>
+          <span className="about__subtitle">20+ Projects</span>
         </div>
 
         <div className={theme ? "about__box box-dark" : "about__box"}>
@@ -47,9 +52,9 @@ const Info = ({ theme }) => {
           <h3
             className={theme ? "about__title about-title-dark" : "about__title"}
           >
-            Support
+            Clients
           </h3>
-          <span className="about__subtitle">Online 24/7</span>
+          <span className="about__subtitle">5+ satisfied</span>
         </div>
       </div>
     </div>

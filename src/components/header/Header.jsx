@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "./header.css";
 import PropTypes from "prop-types";
 
@@ -26,9 +26,8 @@ const Header = ({ theme, themeToggle }) => {
     <header className={`header ${theme ? "dark" : "light"}`}>
       <nav className="nav container">
         <i
-          className={`bx bx-adjust theme-toggle__icon ${
-            theme ? "theme-toggle__icon-dark" : ""
-          }`}
+          className={`bx bx-adjust theme-toggle__icon ${theme ? "theme-toggle__icon-dark" : ""
+            }`}
           onClick={themeToggle}
         ></i>
         <a
@@ -45,8 +44,8 @@ const Header = ({ theme, themeToggle }) => {
                 ? "nav__menu-dark show-menu"
                 : "nav__menu"
               : Toggle
-              ? "nav__menu show-menu"
-              : "nav__menu"
+                ? "nav__menu show-menu"
+                : "nav__menu"
           }
         >
           <ul className="nav__list grid">
@@ -60,8 +59,8 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#home"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                      ? "nav__link active-link"
+                      : "nav__link"
                 }
               >
                 <i className="uil uil-user nav__icon"></i> Home
@@ -78,8 +77,8 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#about"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                      ? "nav__link active-link"
+                      : "nav__link"
                 }
               >
                 <i className="uil uil-user nav__icon"></i> About
@@ -100,7 +99,7 @@ const Header = ({ theme, themeToggle }) => {
               </a>
             </li> */}
 
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
@@ -110,13 +109,13 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#services"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                      ? "nav__link active-link"
+                      : "nav__link"
                 }
               >
                 <i className="uil uil-user nav__icon"></i>Services
               </a>
-            </li>
+            </li> */}
 
             <li className="nav__item">
               <a
@@ -128,8 +127,8 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#portfolio"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                      ? "nav__link active-link"
+                      : "nav__link"
                 }
               >
                 <i className="uil uil-scenery nav__icon"></i> Portfolio
@@ -146,8 +145,8 @@ const Header = ({ theme, themeToggle }) => {
                       ? "nav__link-dark active-link-dark"
                       : "nav__link-dark"
                     : activeNav === "#contact"
-                    ? "nav__link active-link"
-                    : "nav__link"
+                      ? "nav__link active-link"
+                      : "nav__link"
                 }
               >
                 <i className="uil uil-scenery nav__icon"></i> Contact

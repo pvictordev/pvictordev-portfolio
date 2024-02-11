@@ -23,9 +23,8 @@ const About = ({ theme }) => {
           <div className="about__data">
             <Info theme={theme} />
             <p className="about__description">
-              As a Front-End Developer, I am eager to contribute my expertise to
-              an innovative team that shares the goal of crafting exceptional
-              web experiences.
+              Front-End Web Developer with a focus on creating efficient and scalable web applications.
+              I&apos;m committed to leveraging my experience to deliver high-quality solutions to clients.
             </p>
             <a download="" href={CV} className=" button button--flex">
               Check my CV
