@@ -214,4 +214,7 @@
     width: 22px;
     height: 22px;
   }
+  .home__container {
+    row-gap: 4rem;
+  }
 }

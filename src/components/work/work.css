@@ -30,7 +30,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 1.25rem;
   border-radius: 1rem;
-  width: 350px;
+  max-width: 22rem;
   align-items: center;
   transition: 0.2s all ease;
 }
@@ -129,9 +129,6 @@
   }
 }
 @media screen and (max-width: 576px) {
-  /* .work__container {
-    grid-template-columns: 1fr;
-   } */
   .work__img {
     width: 100%;
   }
@@ -159,5 +156,7 @@
   }
   .work__card {
     padding: 0.5rem;
+    width: 15rem;
+    border-radius: 0.7rem;
   }
 }
