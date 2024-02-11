@@ -24,7 +24,7 @@ The pvictordev website is built using the following technologies:
 
 ## Features
 
-pvictordev's portfolio website offers the following features:
+pvictordev portfolio website offers the following features:
 
 1. **About**: Here you can see some information about me.
 
