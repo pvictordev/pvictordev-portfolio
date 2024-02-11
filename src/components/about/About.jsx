@@ -10,8 +10,8 @@ const About = ({ theme }) => {
   };
 
   return (
-    <div>
-      <section className="about section" id="about">
+    <section className="about" id="about">
+      <div className="about__container section">
         <h2 className={theme ? "section__title title-dark" : "section__title"}>
           About me
         </h2>
@@ -56,8 +56,8 @@ const About = ({ theme }) => {
             </a>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 

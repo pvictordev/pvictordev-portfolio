@@ -1,11 +1,12 @@
 import "./footer.css";
 import PropTypes from "prop-types";
+
 const Footer = ({ theme }) => {
   Footer.propTypes = {
     theme: PropTypes.bool.isRequired,
   };
   return (
-    <footer className={theme ? "footer footer-dark" : "footer"}>
+    <footer className={theme ? "footer footer-dark" : "footer"} id="footer">
       <div className="footer__container">
         <h1
           className={
@@ -57,7 +58,7 @@ const Footer = ({ theme }) => {
 
         <span className={theme ? "footer__copy copy-dark" : "footer__copy"}>
           {" "}
-          &#169;pvictordev. All right reserved
+          &#169; pvictordev 2023. All rights are reserved
         </span>
       </div>
     </footer>

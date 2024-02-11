@@ -23,7 +23,7 @@ const Header = ({ theme, themeToggle }) => {
   const [activeNav, setActiveNav] = useState("");
 
   return (
-    <header className={`header ${theme ? "dark" : "light"}`}>
+    <header className={`header ${theme ? "dark" : "light"}`} id="header">
       <nav className="nav container">
         <i
           className={`bx bx-adjust theme-toggle__icon ${theme ? "theme-toggle__icon-dark" : ""

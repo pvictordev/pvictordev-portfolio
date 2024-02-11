@@ -4,14 +4,15 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
-
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
+  /* white theme colors:  */
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --theme-color-dark: hsl(var(--hue), var(--sat), 10%);
+  /* black theme colors */
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --theme-color: hsl(var(--hue), var(--sat), 66%);
   --theme-color-lighter: hsl(var(--hue), var(--sat), 86%);
@@ -36,7 +37,7 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
-  /*========== Margenes Bottom ==========*/
+  /*========== Margines Bottom ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
@@ -66,41 +67,7 @@
   }
 }
 
-/*=============== BASE ===============*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body,
-button,
-input,
-textarea {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-}
-
-/*
-black theme colors: 
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --theme-color: hsl(var(--hue), var(--sat), 66%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
-
-white-theme colors:
- --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --title-color: hsl(var(--hue), var(--sat), 20%);
-  --theme-color-dark: hsl(var(--hue), var(--sat), 10%);
-*/
-
-body {
-  transition: 0.15s all ease;
-}
+/*=============== THEMES ===============*/
 .dark {
   background-color: var(--theme-color-dark);
   color: var(--theme-color);
@@ -110,6 +77,7 @@ body {
   color: var(--text-color);
 }
 
+/*=============== SCROLLBAR ===============*/
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: var(--body-color);
@@ -132,33 +100,6 @@ body::-webkit-scrollbar-thumb {
 }
 .dark::-webkit-scrollbar-thumb {
   background-color: var(--title-color-dark);
-}
-
-h1,
-h2,
-h3 {
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--title-color);
-}
-
-button {
-  cursor: pointer;
-  border: none;
-  outline: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/

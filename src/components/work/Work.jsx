@@ -7,16 +7,16 @@ const Work = ({ theme }) => {
     theme: PropTypes.bool.isRequired,
   };
   return (
-    <div>
-      <section className="work section" id="portfolio">
+    <section className="work" id="portfolio">
+      <div className="work__container section">
         <h2 className={theme ? "section__title title-dark" : "section__title"}>
           Portfolio
         </h2>
         <span className="section__subtitle">My personal projects</span>
 
         <Works theme={theme} />
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
