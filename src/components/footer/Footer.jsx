@@ -29,8 +29,8 @@ const Footer = ({ theme }) => {
           </li>
 
           <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
+            <a href="#contact" className="footer__link">
+              Contact
             </a>
           </li>
         </ul>
@@ -50,7 +50,7 @@ const Footer = ({ theme }) => {
             <i className="bx bxl-linkedin"></i>
           </a>
 
-          <a href="https://twitter.com/wftpid" className="footer__social-link">
+          <a href="https://twitter.com/pvictordev" className="footer__social-link">
             <i className="bx bxl-twitter"></i>
           </a>
         </div>
