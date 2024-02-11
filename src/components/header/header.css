@@ -5,9 +5,10 @@
   color: var(--title-color);
   cursor: pointer;
 }
-.theme-toggle__icon-dark {
+.icon-dark {
   color: var(--body-color);
 }
+
 .header {
   width: 100%;
   position: fixed;
@@ -29,7 +30,8 @@
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
-.nav__logo-dark {
+
+.logo-dark {
   color: var(--theme-color-lighter);
 }
 

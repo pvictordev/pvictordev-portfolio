@@ -26,13 +26,13 @@ const Header = ({ theme, themeToggle }) => {
     <header className={`header ${theme ? "dark" : "light"}`} id="header">
       <nav className="nav container">
         <i
-          className={`bx bx-adjust theme-toggle__icon ${theme ? "theme-toggle__icon-dark" : ""
+          className={`bx bx-adjust theme-toggle__icon ${theme ? "icon-dark" : ""
             }`}
           onClick={themeToggle}
         ></i>
         <a
           href="#home"
-          className={`nav__logo ${theme ? "nav__logo-dark" : ""}`}
+          className={`nav__logo ${theme ? "logo-dark" : ""}`}
         >
           pvictordev
         </a>
