@@ -9,7 +9,7 @@ Deploy: https://pvictordev.netlify.app/ -->
 
 ## pvictordev - Portfolio Website
 
-On this website you can 
+Welcome to my personal website, explore my portfolio of projects, get to know me, and reach out using the contact form. Let's get in touch!
 
 **Live Demo**: [pvictordev](https://pvictordev.netlify.app/)
 
