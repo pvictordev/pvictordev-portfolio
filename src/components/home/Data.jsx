@@ -62,7 +62,7 @@ const Data = ({ theme }) => {
         Front-End Web Developer
       </h3>
       <p className="home__description">
-        I am a Web Developer and Computer Science student based in Romania. 📍
+        I&apos;m a Web Developer and Computer Science student based in Romania. 📍
       </p>
       <a
         href="#contact"

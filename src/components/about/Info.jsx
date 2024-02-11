@@ -54,7 +54,7 @@ const Info = ({ theme }) => {
           >
             Clients
           </h3>
-          <span className="about__subtitle">+5 satisfied</span>
+          <span className="about__subtitle">+10 Satisfied</span>
         </div>
       </div>
     </div>
