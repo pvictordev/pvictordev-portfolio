@@ -3,7 +3,7 @@
 }
 .home__content {
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 3rem;
+  padding-top: 3.5rem;
   column-gap: 2rem;
   align-items: center;
 }
@@ -27,7 +27,7 @@
 .home__social {
   display: grid;
   grid-template-columns: max-content;
-  row-gap: 1rem;
+  row-gap: 1.5rem;
 }
 .home__social-icon {
   font-size: 1.5rem;
@@ -169,7 +169,6 @@
 @media screen and (max-width: 768px) {
   .home__content {
     grid-template-columns: 0.5fr 3fr;
-    padding-top: 3.5rem;
   }
   .home__img {
     order: initial;

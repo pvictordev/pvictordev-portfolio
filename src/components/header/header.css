@@ -64,7 +64,7 @@
   text-shadow: 0px 0px 0.1px var(--title-color-dark);
 }
 .active-link-dark,
-.nav__link-dark:hover {
+.link-dark:hover {
   color: var(--container-color);
   text-shadow: 0px 0px 1px var(--container-color);
 }
