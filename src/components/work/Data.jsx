@@ -1,10 +1,3 @@
-//logos
-// import altcoinx from "../../assets/altcoinx-portfolio-logo.png";
-// import ondrive from "../../assets/ondrive-portfolio-logo.png";
-// import webshop from "../../assets/webshop-portfolio-logo.png";
-// import pvictordev from "../../assets/pvictordev.png";
-// import notesApp from "../../assets/notes-app-logo.png";
-// import chatzen from "../../assets/chatzen-logo.png";
 
 //hero sections
 import altcoinx from "../../assets/altcoinx-hero.png";
@@ -88,14 +81,6 @@ export const projectsData = [
     code: "https://github.com/pvictordev/pvictordev-portfolio",
   },
 
-  // {
-  //     id:4,
-  //     image: socialhub,
-  //     title: 'Socialhub',
-  //     category: 'Full-Stack',
-  //     demo:'',
-  //     code : 'https://github.com/pvictordev/socialhub',
-  // },
 ];
 
 export const projectsNav = [

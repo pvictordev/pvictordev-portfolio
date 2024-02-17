@@ -1,6 +1,10 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const ScrollDown = ({ theme }) => {
+  ScrollDown.propTypes = {
+    theme: PropTypes.bool.isRequired,
+  };
+
   const wheelColor = theme ? "var(--theme-color-lighter)" : "var(--title-color)";
   const mouseColor = theme ? "var(--theme-color-lighter)" : "var(--title-color)";
   return (

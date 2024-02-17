@@ -10,7 +10,7 @@ const Footer = ({ theme }) => {
       <div className="footer__container">
         <h1
           className={
-            theme ? "footer__title footer-title-dark" : "footer__title"
+            theme ? "footer__title title-dark" : "footer__title"
           }
         >
           pvictordev

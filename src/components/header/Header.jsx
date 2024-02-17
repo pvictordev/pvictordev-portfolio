@@ -41,7 +41,7 @@ const Header = ({ theme, themeToggle }) => {
           className={
             theme
               ? Toggle
-                ? "nav__menu-dark show-menu"
+                ? "menu-dark show-menu"
                 : "nav__menu"
               : Toggle
                 ? "nav__menu show-menu"
@@ -56,8 +56,8 @@ const Header = ({ theme, themeToggle }) => {
                 className={
                   theme
                     ? activeNav === "#home"
-                      ? "nav__link-dark active-link-dark"
-                      : "nav__link-dark"
+                      ? "link-dark active-link-dark"
+                      : "link-dark"
                     : activeNav === "#home"
                       ? "nav__link active-link"
                       : "nav__link"
@@ -74,8 +74,8 @@ const Header = ({ theme, themeToggle }) => {
                 className={
                   theme
                     ? activeNav === "#about"
-                      ? "nav__link-dark active-link-dark"
-                      : "nav__link-dark"
+                      ? "link-dark active-link-dark"
+                      : "link-dark"
                     : activeNav === "#about"
                       ? "nav__link active-link"
                       : "nav__link"
@@ -124,8 +124,8 @@ const Header = ({ theme, themeToggle }) => {
                 className={
                   theme
                     ? activeNav === "#portfolio"
-                      ? "nav__link-dark active-link-dark"
-                      : "nav__link-dark"
+                      ? "link-dark active-link-dark"
+                      : "link-dark"
                     : activeNav === "#portfolio"
                       ? "nav__link active-link"
                       : "nav__link"
@@ -142,8 +142,8 @@ const Header = ({ theme, themeToggle }) => {
                 className={
                   theme
                     ? activeNav === "#contact"
-                      ? "nav__link-dark active-link-dark"
-                      : "nav__link-dark"
+                      ? "link-dark active-link-dark"
+                      : "link-dark"
                     : activeNav === "#contact"
                       ? "nav__link active-link"
                       : "nav__link"
@@ -156,14 +156,14 @@ const Header = ({ theme, themeToggle }) => {
           <i
             className={
               theme
-                ? "uil uil-times nav__close-dark"
+                ? "uil uil-times close-dark"
                 : "uil uil-times nav__close"
             }
             onClick={() => showMenu(!Toggle)}
           ></i>
         </div>
         <div
-          className={theme ? "nav__toggle-dark" : "nav__toggle"}
+          className={theme ? "toggle-dark" : "nav__toggle"}
           onClick={() => showMenu(!Toggle)}
         >
           <i className="uil uil-apps"></i>

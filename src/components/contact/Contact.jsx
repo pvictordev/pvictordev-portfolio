@@ -89,7 +89,7 @@ const Contact = ({ theme }) => {
           <div className="contact__info">
             <div
               className={
-                theme ? "contact__card contact-card-dark" : "contact__card"
+                theme ? "contact__card card-dark" : "contact__card"
               }
             >
               <i className="bx bxl-gmail contact__card-icon"></i>
@@ -106,7 +106,7 @@ const Contact = ({ theme }) => {
 
             <div
               className={
-                theme ? "contact__card contact-card-dark" : "contact__card"
+                theme ? "contact__card card-dark" : "contact__card"
               }
             >
               <i className="bx bxl-whatsapp contact__card-icon"></i>
@@ -120,7 +120,7 @@ const Contact = ({ theme }) => {
 
             <div
               className={
-                theme ? "contact__card contact-card-dark" : "contact__card"
+                theme ? "contact__card card-dark" : "contact__card"
               }
             >
               <i className="bx bxl-twitter contact__card-icon"></i>

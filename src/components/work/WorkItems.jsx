@@ -7,7 +7,7 @@ const WorkItems = ({ item, theme }) => {
   };
   return (
     <div
-      className={theme ? "work__card work-card-dark" : "work__card"}
+      className={theme ? "work__card card-dark" : "work__card"}
       key={item.id}
     >
       <div className="work__img-container">
@@ -15,7 +15,7 @@ const WorkItems = ({ item, theme }) => {
       </div>
 
       <div className="work__text">
-        <h3 className={theme ? "work__title work__title-dark" : "work__title"}>
+        <h3 className={theme ? "work__title title-dark" : "work__title"}>
           {item.title}
         </h3>
 
@@ -24,13 +24,13 @@ const WorkItems = ({ item, theme }) => {
         <div className="work__check">
           <a
             href={item.code}
-            className={theme ? "work__button work-button-dark" : "work__button"}
+            className={theme ? "work__button button-dark" : "work__button"}
           >
             Code <i className="uil uil-github-alt"></i>
           </a>
           <a
             href={item.demo}
-            className={theme ? "work__button work-button-dark" : "work__button"}
+            className={theme ? "work__button button-dark" : "work__button"}
           >
             Demo <i className="uil uil-browser"></i>
           </a>

@@ -16,7 +16,7 @@
 .footer__link {
   color: var(--title-color);
 }
-.footer-title-dark {
+.title-dark {
   color: var(--theme-color-lighter);
 }
 .footer__title {
