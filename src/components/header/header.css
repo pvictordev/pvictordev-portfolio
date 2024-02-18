@@ -25,14 +25,19 @@
   column-gap: 1rem;
 }
 
-.nav__logo,
+.nav__logo {
+  font-weight: var(--font-semi-bold);
+}
+
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
 
+
 .logo-dark {
   color: var(--theme-color-lighter);
+  font-weight: var(--font-semi-bold);
 }
 
 .nav__list {
