@@ -31,7 +31,7 @@
     }
 
     .scrollup__icon {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
   }
   
@@ -47,6 +47,9 @@
   @media screen and (max-width: 350px) {
     .scrollup {
         right: 1rem;
+    }
+    .scrollup__icon {
+        font-size: 1.5rem;
     }
   }
   
