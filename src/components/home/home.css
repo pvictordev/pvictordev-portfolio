@@ -30,7 +30,7 @@
   row-gap: 1.5rem;
 }
 .home__social-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: 0.15s all ease;
 }
 .home__social-icon:hover {
@@ -38,7 +38,7 @@
   text-shadow: 0px 0px 0.1px var(--title-color-dark);
 }
 .icon-dark {
-  font-size: 1.5rem;
+  font-size: 2rem;
   transition: 0.15s all ease;
   color: var(--theme-color-lighter);
 }
@@ -215,5 +215,12 @@
   }
   .home__container {
     row-gap: 4rem;
+  }
+  .icon-dark {
+    font-size: 1.5rem;
+  }
+  .home__social-icon {
+    font-size: 1.5rem;
+    transition: 0.15s all ease;
   }
 }

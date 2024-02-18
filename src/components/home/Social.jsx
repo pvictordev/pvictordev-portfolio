@@ -17,7 +17,7 @@ const Social = ({ theme }) => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/victor-purice-204229276/"
+        href="https://www.linkedin.com/in/victor-purice-dev/"
         className={theme ? "icon-dark" : "home__social-icon"}
         target="_blank"
         rel="noreferrer"
