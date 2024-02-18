@@ -67,7 +67,7 @@
   margin-top: 4.5rem;
   color: var(--title-color);
   text-align: center;
-  font-size: var(--smaller-font-size);
+  font-size: var(--small-font-size);
 }
 .copy-dark {
   color: var(--theme-color-lighter);
