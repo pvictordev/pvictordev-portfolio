@@ -20,12 +20,12 @@ export const projectsData = [
     code: "https://github.com/pvictordev/chatzen",
   },
   {
-    id: 2,
+    id: 2, 
     image: socialhub,
     title: "SocialHub",
     category: "In Process",
     description:
-      "SocialHub is a social media platform. It provides an intuitive space to and build connections with friends and colleagues.",
+      "SocialHub is a social media platform. It provides an intuitive space to and build connections and share content with friends and colleagues.",
     demo: "https://pvictordev.netlify.app/",
     code: "https://github.com/pvictordev/socialhub",
   },
