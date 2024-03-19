@@ -88,15 +88,30 @@ const Contact = ({ theme }) => {
 
           <div className="contact__info">
             <div
-              className={
-                theme ? "contact__card card-dark" : "contact__card"
-              }
+              className={theme ? "contact__card card-dark" : "contact__card"}
             >
               <i className="bx bxl-gmail contact__card-icon"></i>
               <h3 className="contact__card-title">Gmail</h3>
               <span className="contact__card-data">pvictor0110@gmail.com</span>
               <a
                 href="mailto:pvictor0110@gmail.com"
+                className="contact__button"
+                target="blank"
+              >
+                Write me{" "}
+                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
+              </a>
+            </div>
+
+            <div
+              className={theme ? "contact__card card-dark" : "contact__card"}
+            >
+              <i className="bx bxl-whatsapp contact__card-icon"></i>
+              <h3 className="contact__card-title">Whatsapp</h3>
+              <span className="contact__card-data">+40749510629</span>
+              <a
+                href="https://wa.link/0ct3j9"
+                target="blank"
                 className="contact__button"
               >
                 Write me{" "}
@@ -105,23 +120,7 @@ const Contact = ({ theme }) => {
             </div>
 
             <div
-              className={
-                theme ? "contact__card card-dark" : "contact__card"
-              }
-            >
-              <i className="bx bxl-whatsapp contact__card-icon"></i>
-              <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">+40749510629</span>
-              <a href="https://wa.link/0ct3j9" className="contact__button">
-                Write me{" "}
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
-            </div>
-
-            <div
-              className={
-                theme ? "contact__card card-dark" : "contact__card"
-              }
+              className={theme ? "contact__card card-dark" : "contact__card"}
             >
               <i className="bx bxl-twitter contact__card-icon"></i>
               <h3 className="contact__card-title">Twitter</h3>
@@ -129,6 +128,7 @@ const Contact = ({ theme }) => {
               <a
                 href="https://twitter.com/pvictordev"
                 className="contact__button"
+                target="blank"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -141,7 +141,7 @@ const Contact = ({ theme }) => {
           <h3
             className={theme ? "contact__title title-dark" : "contact__title"}
           >
-            Let&apos;s get in touch
+            Hit me up 👇
           </h3>
 
           <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -153,8 +153,9 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${!isNameValid ? "invalid-label" : ""
-                  }`}
+                className={`contact__form-tag ${
+                  !isNameValid ? "invalid-label" : ""
+                }`}
               >
                 Name
               </label>
@@ -174,8 +175,9 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${!isEmailValid ? "invalid-label" : ""
-                  }`}
+                className={`contact__form-tag ${
+                  !isEmailValid ? "invalid-label" : ""
+                }`}
               >
                 E-Mail
               </label>
@@ -195,8 +197,9 @@ const Contact = ({ theme }) => {
               }
             >
               <label
-                className={`contact__form-tag ${!isProjectValid ? "invalid-label" : ""
-                  }`}
+                className={`contact__form-tag ${
+                  !isProjectValid ? "invalid-label" : ""
+                }`}
               >
                 Message
               </label>

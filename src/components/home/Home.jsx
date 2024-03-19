@@ -22,14 +22,12 @@ const Home = ({ theme }) => {
           <div className="content-stack">
             <p>Tech Stack</p>
             {theme ? (
-              <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express&theme=dark" />
+              <img src="https://skillicons.dev/icons?i=react,ts,laravel,php,nodejs,express&theme=dark" />
             ) : (
-              <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express&theme=light" />
+              <img src="https://skillicons.dev/icons?i=react,ts,laravel,php,nodejs,express&theme=light" />
             )}
           </div>
         </div>
-
-        {/* <img src="https://skillicons.dev/icons?i=react,ts,tailwind,mongo,nodejs,express,figma&theme=dark" /> */}
       </div>
     </section>
   );

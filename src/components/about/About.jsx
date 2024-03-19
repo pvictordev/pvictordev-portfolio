@@ -23,8 +23,9 @@ const About = ({ theme }) => {
           <div className="about__data">
             <Info theme={theme} />
             <p className="about__description">
-              Front-End Web Developer with a focus on creating efficient and scalable web applications.
-              I&apos;m committed to applying my experience in delivering high-quality solutions for clients.
+              Full-Stack Web Developer with a focus on creating efficient and
+              scalable web applications. I&apos;m committed to applying my
+              experience in delivering high-quality solutions for clients.
             </p>
             <a download="" href={CV} className=" button button--flex">
               Check my CV
