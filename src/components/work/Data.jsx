@@ -1,9 +1,8 @@
-
 //hero sections
 import altcoinx from "../../assets/altcoinx-hero.png";
 import ondrive from "../../assets/ondrive-hero.png";
 import webshop from "../../assets/webshop-hero.png";
-import pvictordev from "../../assets/pvictordev-hero.png";
+// import pvictordev from "../../assets/pvictordev-hero.png";
 import notesApp from "../../assets/notesapp-full.png";
 import chatzen from "../../assets/chatzen-full.png";
 import socialhub from "../../assets/socialhub-logo.png";
@@ -20,7 +19,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/chatzen",
   },
   {
-    id: 2, 
+    id: 2,
     image: socialhub,
     title: "SocialHub",
     category: "In Process",
@@ -70,17 +69,16 @@ export const projectsData = [
     code: "https://github.com/pvictordev/ondrive",
   },
 
-  {
-    id: 7,
-    image: pvictordev,
-    title: "pvictordev",
-    category: "Finished",
-    description:
-      "Welcome to my personal website, explore my portfolio of projects, get to know me, and reach out using the contact form. Let's get in touch!",
-    demo: "https://pvictordev.netlify.app/",
-    code: "https://github.com/pvictordev/pvictordev-portfolio",
-  },
-
+  // {
+  //   id: 7,
+  //   image: pvictordev,
+  //   title: "pvictordev",
+  //   category: "Finished",
+  //   description:
+  //     "Welcome to my personal website, explore my portfolio of projects, get to know me, and reach out using the contact form. Let's get in touch!",
+  //   demo: "https://pvictordev.netlify.app/",
+  //   code: "https://github.com/pvictordev/pvictordev-portfolio",
+  // },
 ];
 
 export const projectsNav = [
