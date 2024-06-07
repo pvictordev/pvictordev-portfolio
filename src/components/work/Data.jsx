@@ -1,7 +1,9 @@
 //hero sections
+// img size should be 1500 x 850
 import altcoinx from "../../assets/altcoinx-hero.png";
 import ondrive from "../../assets/ondrive-hero.png";
 import webshop from "../../assets/webshop-hero.png";
+import phlexi from "../../assets/phlexi-hero.png";
 // import pvictordev from "../../assets/pvictordev-hero.png";
 import notesApp from "../../assets/notesapp-full.png";
 import chatzen from "../../assets/chatzen-full.png";
@@ -10,6 +12,16 @@ import socialhub from "../../assets/socialhub-logo.png";
 export const projectsData = [
   {
     id: 1,
+    image: phlexi,
+    title: "Phlexi",
+    category: "Finished",
+    description:
+      "This project represents a Freelance Services Platform built during the training program at Software Academy. Each stage of the project has its own version.",
+    demo: "https://sa-project-production.up.railway.app/",
+    code: "https://github.com/pvictordev/sa-project",
+  },
+  {
+    id: 2,
     image: chatzen,
     title: "Chatzen",
     category: "In Process",
@@ -19,7 +31,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/chatzen",
   },
   {
-    id: 2,
+    id: 3,
     image: socialhub,
     title: "SocialHub",
     category: "In Process",
@@ -29,7 +41,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/socialhub",
   },
   {
-    id: 3,
+    id: 4,
     image: notesApp,
     title: "Notes App",
     category: "Finished",
@@ -39,7 +51,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/notes-app",
   },
   {
-    id: 4,
+    id: 5,
     image: webshop,
     title: "Webshop",
     category: "Finished",
@@ -49,7 +61,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/webshop",
   },
   {
-    id: 5,
+    id: 6,
     image: altcoinx,
     title: "Altcoinx",
     category: "Finished",
@@ -59,7 +71,7 @@ export const projectsData = [
     code: "https://github.com/pvictordev/altcoinx",
   },
   {
-    id: 6,
+    id: 7,
     image: ondrive,
     title: "Ondrive",
     category: "Finished",
